@@ -176,7 +176,6 @@ AS_IF([test "$pmix_debug" = "1"],
 
 LT_INIT()
 LT_LANG([C])
-LT_LANG([C++])
 
 ############################################################################
 # Setup the core
@@ -205,7 +204,7 @@ PMIX_FLAGS_UNIQ(LDFLAGS)
 PMIX_FLAGS_UNIQ(LIBS)
 
 #
-# Delayed the substitution of CFLAGS and CXXFLAGS until now because
+# Delayed the substitution of CFLAGS until now because
 # they may have been modified throughout the course of this script.
 #
 
